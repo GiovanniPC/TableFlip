@@ -73,8 +73,6 @@ function startMap() {
       });
 
 
-    }, function () {
-      console.log('Error in the geolocation service.');
     });
   } else {
     console.log('Browser does not support geolocation.');
